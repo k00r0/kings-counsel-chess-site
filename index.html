@@ -1,49 +1,47 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>King's Counsel Chess: a wise coach at your side</title>
-<meta name="description" content="Chess with a live coach who speaks up before you blunder, lets you take it back, and remembers what you need to work on. For kids and adults. iPhone, iPad, Android and web.">
-<link rel="icon" href="icon.png">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>King's Counsel Chess — Chess coach who talks to you</title>
+<meta name="description" content="Chess with a wise coach at your side. He watches every move, speaks up before a mistake costs you, and remembers what you need to work on.">
 <style>
-:root{--ink:#1d2433;--ink2:#5b6475;--bg:#f6f1e7;--gold:#b88a2a;--navy:#14243b}
-*{box-sizing:border-box}body{margin:0;font:17px/1.55 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
-header{background:linear-gradient(135deg,#1b3150,#14243b 60%,#1f6f6b);color:#fff8e6;padding:56px 20px 64px;text-align:center}
-header img{width:96px;height:96px;border-radius:22px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-h1{font-family:Georgia,serif;font-size:40px;margin:18px 0 6px}h1 span{color:#f3d27a}
-header p{max-width:620px;margin:8px auto 26px;opacity:.9;font-size:19px}
-.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.btn{display:inline-block;padding:14px 22px;border-radius:14px;font-weight:700;text-decoration:none}
-.btn.gold{background:linear-gradient(180deg,#e0b44e,#c08f26);color:#1d1405}.btn.ghost{border:2px solid rgba(255,255,255,.5);color:#fff}
-main{max-width:920px;margin:0 auto;padding:40px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
-.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 6px 20px rgba(40,30,10,.07)}
-.card b{display:block;font-size:18px;margin-bottom:4px}.card p{margin:0;color:var(--ink2)}
-h2{font-family:Georgia,serif;font-size:28px;margin:40px 0 14px}
-footer{text-align:center;color:var(--ink2);padding:30px 20px 50px;font-size:15px}footer a{color:var(--ink2)}
-</style></head><body>
-<header>
-  <img src="icon.png" alt="">
-  <h1>King's Counsel <span>Chess</span></h1>
-  <p>A wise coach sits beside you while you play. He speaks up before a mistake costs you, lets you take it back, explains why, and remembers what you need to work on.</p>
-  <div class="btns">
-    <a class="btn gold" href="play/">Play in your browser</a>
-    <a class="btn ghost" href="https://apps.apple.com/app/idYOUR-APP-ID">App Store</a>
-    <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.djtattva.kingscounsel">Google Play</a>
-  </div>
-</header>
+  :root{--bg:#14100c;--panel:#1f1913;--line:#3a2f24;--ink:#f5ede0;--muted:#b8a888;--gold:#e8b64c;--green:#7bc47f}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:680px;margin:0 auto;padding:56px 16px 64px;text-align:center}
+  .crown{font-size:72px;line-height:1}
+  h1{font-size:2.1em;line-height:1.15;margin:18px 0 8px}
+  h1 em{font-style:normal;color:var(--gold)}
+  p{color:var(--muted);max-width:50ch;margin:0 auto 14px}
+  .btn{display:inline-block;margin:16px 6px 0;background:var(--gold);color:#241a08;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:14px;box-shadow:0 5px 0 #a67c22}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:36px;text-align:left}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+  .card h2{font-size:1.05em;margin:0 0 6px;color:var(--ink)}
+  .card p{font-size:.92em;margin:0}
+  footer{margin-top:44px;font-size:.85em;color:var(--muted)}
+  footer a{color:var(--gold);margin:0 10px;text-decoration:none}
+  @media (max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
 <main>
+  <div class="crown">♞</div>
+  <h1>King's Counsel <em>Chess</em></h1>
+  <p>Chess with a wise coach at your side. He watches every move, speaks up before a mistake costs you, and remembers what you need to work on.</p>
+  <a class="btn" href="https://apps.apple.com/app/idYOUR-APP-ID">Download on the App Store</a>
   <div class="grid">
-    <div class="card"><b>A coach that talks</b><p>The Vizier for teens and adults, Hopper the little knight for kids. Human-sounding, never repeats himself, and the clock waits while he speaks.</p></div>
-    <div class="card"><b>Take it back</b><p>Blunder? The coach stops the clock and offers: take it back, show me, or play on. You learn the lesson without losing the game.</p></div>
-    <div class="card"><b>He remembers</b><p>"Last game you left your knight unguarded, too." After every game: three things to remember. Every ten games: a full advisor's report.</p></div>
-    <div class="card"><b>Always winnable</b><p>The opponent plays like a human at your level and makes human mistakes. Wins are earned, never handed over.</p></div>
-    <div class="card"><b>Three paths</b><p>Squire for young kids, Knight up to about 1200, Master towards 1800. Lessons, puzzles, and drills built from your own mistakes.</p></div>
-    <div class="card"><b>Test yourself</b><p>When you're ready, play without help. Only Test games count fully for your rating. 10, 15|10 and 30-minute games, no bullet.</p></div>
+    <div class="card"><h2>🗣️ A coach who talks to you</h2><p>The Vizier coaches teens and adults; Hopper, a cheerful little knight, coaches kids — out loud if you like.</p></div>
+    <div class="card"><h2>↩️ Take it back</h2><p>About to blunder? The coach pauses the game, explains what's wrong, and lets you take it back, see why, or play on.</p></div>
+    <div class="card"><h2>🧠 He remembers</h2><p>The coach keeps notes on every game and brings up your habits when they matter.</p></div>
+    <div class="card"><h2>📊 The advisor's report</h2><p>Every ten games: your blind spots with real numbers, your style, and what to focus on next.</p></div>
+    <div class="card"><h2>🧩 Learn and practise</h2><p>Three learning paths, star quests, lessons on tactics and endgames, 1,000 puzzles at your level.</p></div>
+    <div class="card"><h2>👶 For kids</h2><p>Storybook pieces, Hopper's gentle help, unlimited take-backs, no typed chat. Kids play fully offline.</p></div>
   </div>
-  <h2>Help</h2>
-  <p><b>Does it work offline?</b> Yes. The chess engine and the coach run on your device. Typed questions to the coach and the premium voice use the internet.</p>
-  <p><b>What does Pro include?</b> No ads, unlimited take-backs, more typed questions each day, and a premium voice for the coach.</p>
-  <p><b>Contact:</b> <a href="mailto:sagarika125@gmail.com">sagarika125@gmail.com</a></p>
+  <div class="card" style="margin-top:12px;text-align:left">
+    <h2>♛ King's Counsel Pro</h2>
+    <p>No ads, unlimited take-backs, more typed questions for your coach each day, and a premium voice. Monthly, yearly (with a 7-day free trial), or lifetime — one payment.</p>
+  </div>
+  <footer><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><br><br>© 2026 Sagarika Annapragada</footer>
 </main>
-<footer><a href="privacy.html">Privacy policy</a> · Chess engine: Stockfish (GPLv3) · Pieces: cburnett (GPL)</footer>
-</body></html>
+</body>
+</html>
